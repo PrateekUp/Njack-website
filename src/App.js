@@ -9,7 +9,7 @@ import {
 } from "react-router-dom";
 import LoadingBar from 'react-top-loading-bar'
 import BgParallax from './components/BgParallax';
-import { ParallaxProvider } from 'react-scroll-parallax';
+import { Parallax } from 'react-parallax';
 import Carousel from './components/Carouselcomponent';
 import Dummydiv from './components/Dummydiv';
 import Home from './components/Home';

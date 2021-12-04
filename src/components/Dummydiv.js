@@ -2,7 +2,7 @@ import React from 'react'
 
 const Dummydiv = () => {
     const style={
-        height: "440px",
+        height: "550px",
         width: "100%"
     }
     return (

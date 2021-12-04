@@ -13,7 +13,13 @@ const NavBar = () => {
 
     return (
         <div>
-            <nav className="navbar navbar-expand-md navbar-dark">
+            <nav className="navbar navbar-expand-md navbar-dark" style={{
+                backgroundColor: "#670404",
+                opacity: "0.9",
+                position: "fixed",
+                top: "0",
+                width: "100%",
+            }}>
                 <div className="container-fluid">
                     <div className="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
                         <ul className="navbar-nav me-auto">
@@ -26,7 +32,7 @@ const NavBar = () => {
                             <li className="nav-item">
                                 <a className="nav-link" href="https://www.codepeak.tech/" target="_blank">CodePeak</a>
                             </li>
-                            
+
                         </ul>
                     </div>
                     <div className="mx-auto order-0">
