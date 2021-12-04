@@ -1,0 +1,26 @@
+COLOR CODES:::
+#000000
+#3D0000
+#950101
+#FF0000
+
+#FFE6E6
+#FF2626
+#BD1616
+#000000
+
+links are:
+https://colorhunt.co/palette/0000003d0000950101ff0000
+https://colorhunt.co/palette/ffe6e6ff2626bd1616000000
+
+You are free to use more color combinations as well... so show your innovation and creativity.
+
+
+UI::::
+
+Take an idea from the UI image that we have put in ./Resources/UI. The image is just a dummy, you have to use images from the resources images folder.
+It is an IITP website, so we are aiming to keep background of IITP and NJACK logo in centre with some dynamics effects on the landing pages.
+There are more pages as well which we will assign as issues.
+
+You are free to do some improvisation and show your creativity.
+We will be assigning work as issues and you have to contribute your way to best and send us PRs.
