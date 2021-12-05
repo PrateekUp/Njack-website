@@ -15,7 +15,7 @@ const NavBar = () => {
         <div style={{fontSize:"20px", fontWeight:"bold"}}>
             <nav className="navbar navbar-expand-md navbar-light" style={{
                 backgroundColor: "#FF0000",
-                opacity: "0.9",
+                opacity: "0.8",
                 position: "fixed",
                 top: "0",
                 width: "100%",
