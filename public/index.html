@@ -19,26 +19,30 @@
       bottom: 0;
       width: 100%;
       background: 
-    radial-gradient(#2a0491 3px, transparent 4px),
-    radial-gradient(#2a0491 3px, transparent 4px),
-    linear-gradient(#2a0491 4px, transparent 0),
-    linear-gradient(45deg, transparent 74px, transparent 75px, #2a0491 75px, #2a0491 76px, transparent 77px, transparent 109px),
-    linear-gradient(-45deg, transparent 75px, transparent 76px, #2a0491 76px, #2a0491 77px, transparent 78px, transparent 109px),
-  rgb(40, 53, 175);
+    radial-gradient(#00000050 3px, transparent 4px),
+    radial-gradient(#00000050 3px, transparent 4px),
+    linear-gradient(#00000050 4px, transparent 0),
+    linear-gradient(45deg, transparent 74px, transparent 75px, #00000050 75px, #00000050 76px, transparent 77px, transparent 109px),
+    linear-gradient(-45deg, transparent 75px, transparent 76px, #00000050 76px, #00000050 77px, transparent 78px, transparent 109px),
+    #240000;
   background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
   background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
-      color: rgb(31, 35, 95);
+      color: #160101;
       text-align: center;
       flex-grow: 1;
-      
-      
-      
+      opacity: 1;  
     }
     #footer_header {
         font-size: 200%;
-        color:rgb(25, 244, 252);
+        color:#3D0000;
         font-family: 'Raleway', sans-serif;
         font-weight:bold;
+        opacity:1;
+
+        text-align: center;
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+        animation: glow 1s ease-in-out infinite alternate;
     }
     .col {
       position: relative;
@@ -47,19 +51,21 @@
     #footer_button
     {
         width:60%;
-        color:rgb(140, 0, 255);
         font-weight:bold;
-        opacity:0.7;
+        opacity:1;
+        font-size:120%;
         
+       
+    border-radius: 25px;  
+    text-align :center;  
+    padding: 5px 10px 10px 10px;  
+    width:300px;  
+    height:50px; 
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 
-        font-size: 20px;
-  color: rgb(183, 0, 255);
-  text-align: center;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
-
+      
     }
+    
     #footer_underline {
     height:10;
     color:white;
@@ -68,11 +74,15 @@
 
 @-webkit-keyframes glow {
   from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #f03737, 0 0 40px #F03737, 0 0 50px #F03737, 0 0 60px #F03737, 0 0 70px #F03737;
   }
   to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    text-shadow: 0 0 20px #fff, 0 0 30px #FF2626, 0 0 40px #FF2626, 0 0 50px #FF2626, 0 0 60px #FF2626, 0 0 70px #FF2626, 0 0 80px #FF2626;
   }
+}
+  
+ .btn-outline-danger:hover, .btn-outline-danger:active, .btn-outline-danger:visited {
+    background-color: #BD1616 !important;
 }
     </style>
 
@@ -83,32 +93,34 @@
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <div class="footer">
         <br>
+       
+      
       <div class="container-fluid" id="links">
         <div class="row">
           
-         <div class=" col"> <img src = "logo.png" alt = "LOGO" width =340px height = 170px></div>
+         <div class=" col" style = "opacity:1"> <img src = "logo.png" alt = "LOGO" id = "logo" width =340px height = 170px style = "opacity : 1"></div>
         
         <div class="row row-cols-1 row-cols-md-2">
         
             <div class = "container"> <br>
                 <div id = footer_header> Quick Links</div>
                 <hr id = "footer_underline"><br>
-                <div class=" col"> <a href = "#"><button type="button" id = "footer_button"     class="btn btn-warning">Njack</button></a></div>
-                <div class=" col"> <a href = "#"><button type="button" id = "footer_button"     class="btn btn-warning">IIT Patna</button></a></div>
-                <div class=" col"> <a href = "#"><button type="button" id = "footer_button"     class="btn btn-warning">NWoC</button></a></div>
-                <div class=" col"> <a href = "#"><button type="button" id = "footer_button"     class="btn btn-warning">The Team</button></a></div>
-                <div class=" col"> <a href = "#"><button type="button" id = "footer_button"     class="btn btn-warning">Events</button></a></div>
+                <div class=" col"> <a href = "#"><button type="button" id = "footer_button"     class="btn btn-outline-danger">Njack</button></a></div>
+                <div class=" col"> <a href = "#"><button type="button" id = "footer_button"     class="btn btn-outline-danger">IIT Patna</button></a></div>
+                <div class=" col"> <a href = "#"><button type="button" id = "footer_button"     class="btn btn-outline-danger">NWoC</button></a></div>
+                <div class=" col"> <a href = "#"><button type="button" id = "footer_button"     class="btn btn-outline-danger">The Team</button></a></div>
+                <div class=" col"> <a href = "#"><button type="button" id = "footer_button"     class="btn btn-outline-danger">Events</button></a></div>
               </div>
           
           <div class = "container"> <br>
           <div id = footer_header> Contact Us</div>
           <hr id = "footer_underline"><br>
-          <div class=" col"> <a href="mailto:njack@iitp.ac.in"><button type="button" id = "footer_button"     class="btn btn-warning"><i class="fa fa-envelope" ></i> &ensp; njack@iitp.ac.in </button></a></div>
-          <div class=" col"> <a href = "https://github.com/Njack-IITP"><button type="button" id = "footer_button"     class="btn btn-warning"><i class="fa fa-github" ></i> &ensp; Njack-IITP </button></a></div>
-          <div class=" col"> <a href = "https://www.facebook.com/njack.iitp/"><button type="button" id = "footer_button"     class="btn btn-warning"><i class="fa fa-facebook"></i> &ensp; Njack-IITP </button></a></div>
-          <div class=" col"> <a href = "https://twitter.com/njackiitp"><button type="button" id = "footer_button"     class="btn btn-warning"><i class="fa fa-twitter"></i> &ensp; Njack-IITP </button></a></div>
-          <div class=" col"> <a href = "https://in.linkedin.com/company/njack-iit-patna"><button type="button" id = "footer_button"     class="btn btn-warning"><i class="fa fa-linkedin"></i> &ensp; Njack-IIT-Patna </button></a></div>
-          <div class=" col"> <a href = "https://www.iitp.ac.in/index.php/en-us/"><button type="button" id = "footer_button"     class="btn btn-warning"><i class="fa fa-globe"></i> &ensp; IITP Website </button></a></div>
+          <div class=" col"> <a href="mailto:njack@iitp.ac.in"><button type="button" id = "footer_button"     class="btn btn-outline-danger"><i class="fa fa-envelope" ></i> &ensp; njack@iitp.ac.in </button></a></div>
+          <div class=" col"> <a href = "https://github.com/Njack-IITP"><button type="button" id = "footer_button"     class="btn btn-outline-danger"><i class="fa fa-github" ></i> &ensp; Njack-IITP </button></a></div>
+          <div class=" col"> <a href = "https://www.facebook.com/njack.iitp/"><button type="button" id = "footer_button"     class="btn btn-outline-danger"><i class="fa fa-facebook"></i> &ensp; Njack-IITP </button></a></div>
+          <div class=" col"> <a href = "https://twitter.com/njackiitp"><button type="button" id = "footer_button"     class="btn btn-outline-danger"><i class="fa fa-twitter"></i> &ensp; Njack-IITP </button></a></div>
+          <div class=" col"> <a href = "https://in.linkedin.com/company/njack-iit-patna"><button type="button" id = "footer_button"     class="btn btn-outline-danger"><i class="fa fa-linkedin"></i> &ensp; Njack-IIT-Patna </button></a></div>
+          <div class=" col"> <a href = "https://www.iitp.ac.in/index.php/en-us/"><button type="button" id = "footer_button"     class="btn btn-outline-danger"><i class="fa fa-globe"></i> &ensp; IITP Website </button></a></div>
         </div>
 
         </div> 
@@ -116,7 +128,11 @@
       </div>
       <br>
     </div>
+
+    
   
+   
 </body>
 
 </html>
+
