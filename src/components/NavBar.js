@@ -1,5 +1,5 @@
 import React from 'react'
-
+import "./style.css"
 
 import {
 
@@ -9,16 +9,17 @@ import {
 const NavBar = () => {
 
 
-
+// This is the navigation bar element for the NJack web page
 
     return (
-        <div>
-            <nav className="navbar navbar-expand-md navbar-dark" style={{
-                backgroundColor: "#670404",
+        <div style={{fontSize:"20px", fontWeight:"bold"}}>
+            <nav className="navbar navbar-expand-md navbar-light" style={{
+                backgroundColor: "#FF0000",
                 opacity: "0.9",
                 position: "fixed",
                 top: "0",
                 width: "100%",
+                color: "#000000"
             }}>
                 <div className="container-fluid">
                     <div className="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">

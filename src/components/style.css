@@ -1,1 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+/* Fonts for the header */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+
+
+
+/* CSS for Dummydiv */
+@media screen and (min-width: 870px) {
+  .blank {
+    height: 698px !important;
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 870px) and (min-width: 490px) {
+  .blank {
+    height: 520px !important;
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 490px) and (min-width: 475px) {
+  .blank {
+    height: 550px !important;
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .blank {
+    height: 550px !important;
+    width: 100% !important;
+  }
+}
+
+/* CSS for NJack logo in the middle of header at BgHeader.js */
+@media screen and (min-width: 870px) {
+  .image {
+    height: 70% !important;
+  }
+}
+@media screen and (max-width: 870px) {
+  .image {
+    height: 50% !important;
+  }
+}

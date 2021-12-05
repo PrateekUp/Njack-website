@@ -1,12 +1,12 @@
 import React from 'react'
+import "./style.css"
+
+// This is a dummy div used to prevent elements with normal HTML flow from interfering with absolute positioned header
 
 const Dummydiv = () => {
-    const style={
-        height: "550px",
-        width: "100%"
-    }
+    
     return (
-        <div style={style}>
+        <div className="blank">
             
         </div>
     )

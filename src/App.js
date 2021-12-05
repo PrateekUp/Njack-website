@@ -1,52 +1,49 @@
 
-import React, { useState } from 'react'
+import React from 'react'
 import NavBar from './components/NavBar';
+
+//React - Router - dom setup for single page application
 import {
   BrowserRouter as Router,
   Route,
   Switch
 
 } from "react-router-dom";
-import LoadingBar from 'react-top-loading-bar'
-import BgParallax from './components/BgParallax';
-import { Parallax } from 'react-parallax';
-import Carousel from './components/Carouselcomponent';
+
+//header backgound
+import Bg from './components/BgHeader';
+
+//This is a dummy div that stays below the header. As the header is position: absolute, thus to prevent interference of other elemnts with the header is avoided by using a div of the same size as the header beneath it.
 import Dummydiv from './components/Dummydiv';
-import Home from './components/Home';
-import Footer from './components/Footer';
-import Team from './components/Team';
-import Events from './components/Events';
+import Blank from './components/Blank';
+
 
 
 function App() {
 
-  const img1=require("./Resources/img/events-min.jpg");
-  const img2=require("./Resources/img/exceptional-team.png");
-  const img3="./Resources/img/nwoc-min.jpg";
-
-  const [progress, setProgress] = useState(0)
+  
   return (
     <Router>
 
       <NavBar />
-      <BgParallax />
+      <Bg />
       <Dummydiv />
-      <div style={{backgroundColor: 'rgb(255 255 255)'}}> 
-      {/* <Carousel /> */}
-      
+      <div style={{backgroundColor: 'rgb(255 255 255)', marginTop: '33px'}}> 
 
+
+     {/* Router endpoints. Add the required elements in it */}
         <Switch>
 
-          <Route exact path="/"> <Home/> </Route>
+          <Route exact path="/"> <Blank/> </Route>
 
-          <Route exact path="/team"> <Team setProgress={setProgress}    /> </Route>
-        <Route exact path="/events"> <Events setProgress={setProgress}   /> </Route> 
+          <Route exact path="/team"> <Blank/> </Route>
+        <Route exact path="/events"> <Blank/></Route> 
         
 
         </Switch>
 
         </div>
-        <Footer/>
+        
     </Router>
   );
 }
