@@ -1,0 +1,44 @@
+/* following BEM convention */
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    min-height: 300px;
+    background-color: #212121;
+    padding: 20px;
+    padding-top: 10px;
+}
+
+.footer__body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex:1;
+    align-items: center;
+}
+
+.footer__body > div{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    font-size: 20px;
+}
+
+.footer__body a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    /* padding-top: 20px; */
+}
+
+.footer__foot{
+    display: block;
+    font-size: 20px;
+    color: white;
+    align-self: center;
+}
+
+.footer__icon{
+    align-self: center;
+    padding: 30px;
+}
