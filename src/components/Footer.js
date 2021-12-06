@@ -16,22 +16,22 @@ function Footer() {
                     <img src='https://scontent.fidr4-2.fna.fbcdn.net/v/t1.6435-9/51745036_2209486759072164_9160398577820762112_n.png?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=8iMGVPRuhNgAX8hC-oO&tn=Dh3McDadJP6EjA3Y&_nc_ht=scontent.fidr4-2.fna&oh=2f0cf2a0147f2e34eaadbff51383067f&oe=61D375B9' />
                 </div>
                 <div className=''>
-                    <a href=" "><LinkIcon/> LINK 1</a>
-                    <a href=" "><LinkIcon/> LINK 1</a>
-                    <a href=" "><LinkIcon/> LINK 1</a>
-                    <a href=" "><LinkIcon/> LINK 1</a>
+                    <a href=" "><LinkIcon /> LINK 1</a>
+                    <a href=" "><LinkIcon /> LINK 1</a>
+                    <a href=" "><LinkIcon /> LINK 1</a>
+                    <a href=" "><LinkIcon /> LINK 1</a>
                 </div>
                 <div className=''>
-                    <a href=" "><LinkIcon/> LINK 2</a>
-                    <a href=" "><LinkIcon/> LINK 2</a>
-                    <a href=" "><LinkIcon/> LINK 2</a>
-                    <a href=" "><LinkIcon/> LINK 2</a>
+                    <a href=" "><LinkIcon /> LINK 2</a>
+                    <a href=" "><LinkIcon /> LINK 2</a>
+                    <a href=" "><LinkIcon /> LINK 2</a>
+                    <a href=" "><LinkIcon /> LINK 2</a>
                 </div>
                 <div className=''>
-                    <a href=" "><LinkIcon/> LINK 3</a>
-                    <a href=" "><LinkIcon/> LINK 3</a>
-                    <a href=" "><LinkIcon/> LINK 3</a>
-                    <a href=" "><LinkIcon/> LINK 3</a>
+                    <a href=" "><LinkIcon /> LINK 3</a>
+                    <a href=" "><LinkIcon /> LINK 3</a>
+                    <a href=" "><LinkIcon /> LINK 3</a>
+                    <a href=" "><LinkIcon /> LINK 3</a>
                 </div>
             </div>
             <div className='footer__icon'>
