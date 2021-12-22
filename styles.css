@@ -638,41 +638,7 @@
     color:red
     
   }
-    .walking-text{
-      position:relative; 
-      color:rgb(244,241,239); 
-      font-size:1.5rem; 
-      font-family: 'Poppins';
-      text-transform: uppercase;
-      -webkit-text-stroke: 1px red; 
-      width:max-content; 
-      font-weight: bolder;
-  }
   
-  .walking-text::before{
-      content: attr(data-text);
-      position:absolute; 
-      left:0;
-      width:0;
-      height:100%;
-      font-weight: bolder;
-      color:red;
-      -webkit-text-stroke: 0vw black; 
-      border-right: 4px solid red;
-      overflow:hidden;
-      animation :animate 6s linear infinite; 
-  }
-  
-  @keyframes animate{
-      0%,10%{
-        width:0; 
-      }
-      70%,80%{
-          width:100%; 
-      }
-  }
-
-
     /*SECTION2*/
     .section2{
     padding:3rem;
