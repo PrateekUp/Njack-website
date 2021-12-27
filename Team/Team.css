@@ -216,6 +216,10 @@ body{
     height:auto;
     background-color: black;
     border-radius:20px;
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .department{
     display:flex; 
@@ -223,6 +227,8 @@ body{
     width:max-content; 
     color:white;
     margin:0 0 20px; 
+    border-bottom: 4px dotted rgb(6, 250, 39);
+
 }
 .title{
     display:flex; 
@@ -239,14 +245,16 @@ body{
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
+    width:100%;
 }
-.carousel1,.carousel2,.carousel3{
+.carousel1,.carousel2,.carousel3,.carousel4,.carousel5,.carousel6,.carousel7,.carousel8,.carousel9{
     display:flex; 
     justify-content:space-around;
     align-items: center;
     margin-bottom:30px; 
     padding:0 30px; 
     flex-wrap: wrap;
+    width:100%;
     /* flex-direction: column; */
 }
 

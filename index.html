@@ -75,7 +75,7 @@
   <!--BANNER-->
   <div class="banner">
     <div class="bgpic">
-      <img src="images/njack-removebg-preview.png">
+      <img class="Tilt" src="images/njack-removebg-preview.png">
 
     </div>
   </div>
@@ -371,6 +371,14 @@
 
   <!--JAVASCRIPT-->
   <script type="text/javascript" src="index.js"></script>
+  <script type="text/javascript" src="vanilla-tilt.js"></script>
+  <script type="text/javascript">
+    VanillaTilt.init(document.querySelector(".Tilt"), {
+      max: 25,
+      scale:1.2,  
+      speed: 400
+    });
+  </script>
 </body>
 
 </html>
