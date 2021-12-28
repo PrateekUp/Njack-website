@@ -721,13 +721,16 @@
     align-items:center;
     justify-content:right;
     position:relative;
+    height:max-content;
+    overflow: hidden;
+
     }
     
     .section3 section{
     width:39.5%;
-    position:absolute;
+    /* position:absolute; */
     right:5%;
-    padding:2rem;
+    padding:3rem;
     background-color:var(--secondary);
     color:var(--white);
     }
