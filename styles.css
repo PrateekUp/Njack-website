@@ -286,7 +286,7 @@
     }
     
     #logo{
-    width:120px;
+    width:100px;
     position:relative;
     top:-10px;
     }
@@ -433,6 +433,11 @@
     position:absolute;
     bottom:0;
     }
+    @media screen and (max-width:730px) {
+      .banner:after{
+        opacity: 0;
+      }
+    }
     
     .banner section{
     width:55%;
@@ -549,11 +554,6 @@
     padding:4rem 2rem;
     }
     
-    .about_mr section:nth-child(1){
-    background-image:url("https://i.ibb.co/1v2CTjz/shape.png");
-
-    background-size:50% 99%;
-    }
     
     .about_mr section img:nth-child(1){
     width:70%;
@@ -1179,8 +1179,8 @@ p.fontCol{
 
 .container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 10px;
+  grid-template-columns: repeat(4, 25%);
+  grid-gap: 2px;
   padding: 2% 1%;
 }
 
