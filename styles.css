@@ -422,6 +422,7 @@
     max-width: 1000px;
     height: auto;
     padding: 8%;
+    z-index: 1;
     }
     
     .banner:after{
@@ -434,8 +435,9 @@
     bottom:0;
     }
     @media screen and (max-width:730px) {
-      .banner:after{
-        opacity: 0;
+      .bgpic{
+        padding-top: 15%;
+        padding-bottom: 4%;
       }
     }
     
