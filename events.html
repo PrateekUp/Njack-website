@@ -73,8 +73,7 @@
   <!--BANNER-->
   <div class="banner">
     <div class="bgpic">
-      <img src="images/events_banner.png" id="img_banner">
-
+      <img class="Tilt" src="images/events_banner.png" id="img_banner">
     </div>
   </div>
 
@@ -358,7 +357,16 @@
   <script type="text/javascript" src="index.js"></script>
 </body>
 
-
+  <!--JAVASCRIPT-->
+  <script type="text/javascript" src="index.js"></script>
+  <script type="text/javascript" src="vanilla-tilt.js"></script>
+  <script type="text/javascript">
+    VanillaTilt.init(document.querySelector(".Tilt"), {
+      max: 25,
+      scale:1.2,  
+      speed: 400
+    });
+  </script>
 <script>
   var acc = document.getElementsByClassName("accordion");
   var i;
