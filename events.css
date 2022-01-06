@@ -1,0 +1,141 @@
+body
+{
+    color:black;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+#main_heading
+{
+    font-size: 500%;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.sub_heading
+{
+    font-size: 300%;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    border-bottom:2px solid #8a5e4a;
+    width:55%;
+    margin-left:20%;
+    
+}
+
+.card-body
+{
+    text-align: left;
+    background-color: rgb(0, 0, 0);
+    border:2px solid #ff5100;
+    border-radius: 25px;  
+    color:rgb(114, 114, 114);
+    
+}
+.links
+{
+  color:#ff5100;
+}
+img{
+  border-top-left-radius: 25px;
+}
+
+h4
+{
+    text-align:center;
+    color: #ff5100;
+}
+.card_head 
+{
+    color: #ff5100;
+}
+.fa{
+    color: #ff5100;
+}
+p{
+    font-size: 90%;
+}
+
+.card{
+    margin-bottom: 80%;   
+    
+}
+
+.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    
+  }
+#past_events 
+{
+  margin-bottom: 10%;
+  
+}
+
+#upcoming_events 
+{
+  margin-bottom: 10%;
+  text-align: center;
+  
+}
+
+  .accordion {
+    background-color: #ff5100d0;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 90%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin-left: 5%;
+    
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: rgba(248, 133, 66, 0.671);
+  }
+
+  @font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('../fonts/glyphicons-halflings-regular.eot');
+    src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+  }
+
+  #img_banner
+  {
+    width:1000px;
+    height: 500px;
+  }
+  .panel{
+    margin-left:5%;
+  }
+  
+  #card_block
+  {
+    margin-left:8%;
+    margin-top:120px;
+    position:relative;
+    
+    
+  }
+  #accordian_group
+  {
+    margin-top:5% ;
+  }
