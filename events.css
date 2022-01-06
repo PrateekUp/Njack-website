@@ -29,6 +29,7 @@ body
     border:2px solid #ff5100;
     border-radius: 25px;  
     color:rgb(114, 114, 114);
+    margin:10px;
     
 }
 .links
@@ -132,10 +133,23 @@ p{
     margin-left:8%;
     margin-top:120px;
     position:relative;
-    
-    
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height:max-content;
   }
   #accordian_group
   {
     margin-top:5% ;
+  }
+  
+  .container{
+    width:max-content; 
+    margin:auto;
+  }
+  .card{
+    width:max-content; 
+    margin:10px; 
+    position:inherit;
   }
