@@ -3,10 +3,10 @@ Codepeak 2021 Open source
 # NJACK
 NJACK is The Computer Science Club of IIT Patna.
 Departments in NJACK:
--Competitive Programming
--CyberSecurity
--Developement and Open source
--Machine Learning
+- Competitive Programming
+- CyberSecurity
+- Developement and Open source
+- Machine Learning
 # Project description
 We will be creating a fully responsive and dynamic website for NJACK, Computer Science Club of IIT Patna from scratch using HTML, CSS, JS with some great design. This will include a landing page, events page, team and contact page.
 More Content about NJACK, we will be providing with the assigning issues, feel free to contribute without worrying about the content.
